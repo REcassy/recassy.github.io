@@ -1,1 +1,7 @@
 title: "REcassy"
+
+
+plugins:
+  - jekyll-remote-theme
+
+remote_theme: jekyll/minima
