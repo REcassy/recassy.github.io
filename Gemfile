@@ -1,9 +1,6 @@
 # Gemfile
 
 source 'https://rubygems.org'
-
-gem "jekyll", "~> 4.3.3"
-
 gem "minima", github: "jekyll/minima"
 gem "github-pages", group: :jekyll_plugins
 group :jekyll_plugins do
