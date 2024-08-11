@@ -9,7 +9,7 @@ In diesem Beitrag kommt folgendes zum Einsatz
 * Mobile Cassy WLAN von LD Didactic und Sensor Mikrofon M
 * Digital Discovery und Waveforms von Digilent
 * ein unter Aufbau gezeigtes Breadboard
-* [Arduino-Programm][gh-lichtschranke] zum simulieren
+* [Arduino-Programm][gh-lichtschranke] zum simulieren einer angeschlossenen Lichtschranke M
 
 ## Vorbemerkung
 
