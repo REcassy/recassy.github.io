@@ -4,4 +4,4 @@ layout: page
 title: Über mich
 ---
 
-More details about me.
+Fächer: Physik und Mathematik, leidenschaftlicher Bastler.
