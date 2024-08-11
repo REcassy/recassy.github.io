@@ -1,7 +1,7 @@
 ---
 permalink: /about
 layout: page
-title: About me
+title: Über mich
 ---
 
 More details about me.
