@@ -15,7 +15,7 @@ In diesem Beitrag kommt folgendes zum Einsatz
 Die nachfolgenden Überlegungen wurden vom Autor von [uranmaschine.de][ur-lichtschranke] angeregt.
 Ziel soll es sein, eine Art Trigger-Board zu entwerfen, die das Mobile Cassy in den "Lichtschranken-Modus" versetzt und die Beschaltung einer externen Lichtschranke dann über Pins 2 und 6 zu realisieren.
 
-In der verlinkten Darstellung sollte die Bezeichnung "Timer E" bzw. "Timer F" mit etwas Vorsicht genossen werden. Experimente mit dem hier benutzten Mikrofon M legen nahe, dass es sich eher um einfache Analogeingänge handelt und die bei Anschluss der Lichtschranke M lediglich binär abgefragt werden (über Schwellwert -> high, sonst low). Tatsächliche Timer-Funktion wie etwa noch im Cassy-E verbaut wurden, sind hier nicht mehr zu erwarten. Die Zeitmessung wird wohl der ARM-Prozessor im Mobile Cassy übernehmen.
+In der verlinkten Darstellung sollte die Bezeichnung "Timer E" bzw. "Timer F" mit etwas Vorsicht genossen werden. Experimente mit dem hier benutzten Mikrofon M legen nahe, dass es sich eher um einfache Analogeingänge handelt und die bei Anschluss der Lichtschranke M lediglich binär abgefragt werden (über Schwellwert -> high, sonst low). Tatsächliche Hardware-Timer wie etwa noch im Cassy-E verbaut wurden, sind hier nicht mehr zu erwarten. Die Zeitmessung wird wohl der ARM-Prozessor im Mobile Cassy übernehmen.
 
 ## Aufbau
 Hier ist der Aufbau, der Digital Discovery Logikanalysator ist an Pins 1 und 5 geklemmt:
