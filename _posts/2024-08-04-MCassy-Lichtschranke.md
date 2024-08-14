@@ -27,13 +27,17 @@ Ein kurzer Blick zeigt, dass es sich offensichtlich um einen I<sup>2</sup>C Bus 
 <img src="/assets/imgs/Logikanalysator.png" width="600px">
 
 ## Initialisierung
-Es ist klar zu sehen, dass das Mobile Cassy auf dem I<sup>2</sup>C Bus grundsätzlich Adresse 50h abfragt. Dabei läuft der erste Austausch so:
->
+Es ist klar zu sehen, dass das Mobile Cassy auf dem I<sup>2</sup>C Bus grundsätzlich Adresse 50h abfragt. Dabei läuft der erste Austausch so, dass das Mobile Cassy die Abfrage:
+> 00
 
-worauf das Mikrofon M antwortet
->
+sendet, worauf das Mikrofon M antwortet
+> 00 08 00 9A
 
+Dezimal lautet diese Antwort `524 442`, was der Katalognummer des Sensors entspricht.
 
+## Simulieren eines Sensors
+
+Ein einfaches [Arduino-Programm][gh-lichtschranke] ist also in der Lage, auf diese Anfrage mit der Katalognummer zu reagieren. Im Bild oben wird eine Lichtschranke simuliert. Der Arduino bedient dabei gleichzeitig Pin 2 ("Timer E") und schaltet diesen im 750ms Rhythmus um, sodass die angezeigte Periodendauer von 1,5s entsteht.
 
 ## Weitergehende Bemerkungen
 * Beim Experimentieren mit dem I<sup>2</sup>C Bus hat das Mobile Cassy Werte auch ohne Beschaltung der Pins 2 und 6 Werte an. Auch Versuche mit anderen Sensoren legen nahe, dass Messwerte auch rein über den I<sup>2</sup>C Bus übertragen werden können. Das Cassy Mobile versucht unter anderem auch Adresse 14h auf dem Bus zu erreichen - ggf. gibt es reservierte Adressen für diese Messdaten und die allgmeine Adresse 50h für die "Verwaltung".
