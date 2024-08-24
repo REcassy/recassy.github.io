@@ -27,6 +27,8 @@ Nach der gleichen Methode wie bei dem [Mikrofon M][post-mikro] wird der Datenver
 
 erneut stehen die letzten drei Byte für die Katalognummer des M Relais (524 446). Das erste Byte ist allerdings `40` statt `00` wie bei dem Mikrofon (ggf. ein Hinweis darauf, dass es ein Output ist bzw. den Eingang nicht belegt, damit dieser vom ADC getrennt wird?).
 
+Anscheinend wurde der EEEPROM hardwareseitig permanent in den "sequential read" modus gebracht, wodurch er beginnend ab der abgefragten Adresse solange weiter die folgenden Bytes ausgibt, bis der Host die I<sup>2</sup>2-Stop-Bedingung auslöst, d.h. den Datenverkeht abbricht (vgl. Kap. 9.3 des Datenblatts von Mikrochip).
+
 Weitere Kommunikation gibt es nicht.
 
 ## Schaltvorgang
