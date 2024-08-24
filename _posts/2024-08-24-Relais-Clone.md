@@ -1,3 +1,9 @@
+---
+title: "Klonen eines Relais M"
+date: 2024-08-24
+layout: post
+---
+
 ## Hard- und Software
 In diesem Beitrag kommt folgendes zum Einsatz
 * Mobile Cassy WLAN von LD Didactic
