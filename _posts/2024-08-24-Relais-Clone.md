@@ -25,7 +25,7 @@ Hinweis: Hier ist aus debugging-Gründen noch eine Power-LED angeschlossen, aber
 
 ## Schaltplan
 
-<em>Schaltplan folgt </em>
+<img src="/assets/imgs/relais-schem.jpg" width="1000px">
 
 Die Schaltung besteht aus zwei Teilen: Dem ATTiny25-Schaltkreis und dem Relais-Schaltkreis.
 
