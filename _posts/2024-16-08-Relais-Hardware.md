@@ -40,5 +40,5 @@ Leybold betreibt hier gewissermaßen I<sup>2</sup>C-Hacking. Die hoch-frequenten
 Sehr clever!
 
 Überprüft werden soll das im nächsten Beitrag an den zwei logischen Konsequenzen:
-* Schaltbefehle müssten dem Zustand von SCK korrellieren
+* Schaltbefehle müssten mit dem Zustand von SCK korrellieren
 * Beim Anschalten müsste die Kommunikation der Sensorerkennung zum kurzzeitigen Auslösen führen (ggf. nicht lang genug für das Relais, aber die LED müsste aufleuchten)
