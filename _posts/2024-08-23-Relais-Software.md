@@ -21,7 +21,7 @@ Der Aufbau ist ähnlich zu dem aus dem Beitrag zum [Mikrofon M][post-mikro]. Hie
 <img src="/assets/imgs/relais-breadboard.png" width="600px">
 
 ## Initialisierung
-Nach der gleichen Methode wie bei dem [Mikrofon M][post-mikro] wird der Datenverkehr untersicht. Das Cassy Mobile fragt erneut an Adresse `50` das Register `00` ab, worauf das Relais antwortet:
+Nach der gleichen Methode wie bei dem [Mikrofon M][post-mikro] wird der Datenverkehr untersucht. Das Cassy Mobile fragt erneut an Adresse `50` das Register `00` ab, worauf das Relais antwortet:
 
 `40 00 08 00 9E`
 
