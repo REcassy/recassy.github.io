@@ -33,7 +33,7 @@ Die Schaltung besteht aus zwei Teilen: Dem ATTiny25-Schaltkreis und dem Relais-S
 ## Platine
 Im verlinkten Repository sind alle Gerber- und Bohrdaten für die automatisierte Platinenfertigung zu finden.
 
-<img src="/assets/imgs/relais-pcb.png" width="1000px">
+<img src="/assets/imgs/relais-pcb.png" width="600px">
 
 ### ATTiny25
 Der ATTiny ist zunächst an VCC und GND direkt über die Mini-DIN Buchse angeschlossen. Dabei ist grundsätzlich ein Entkopplungskondensator von 10µF in der Leitung sowie ein 100nF Kondensator unmittelbar zwischen beiden Pins auf der Unterseite der Fassung (es gibt auch Fassungen mit eingebautem 100nF-Kondensator).
