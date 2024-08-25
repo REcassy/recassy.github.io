@@ -31,7 +31,7 @@ In einer späteren Version wird ggf. wie beim Original noch ein ESD-Schutz für 
 Die Schaltung besteht aus zwei Teilen: Dem ATTiny25-Schaltkreis und dem Relais-Schaltkreis.
 
 ## Platine
-Im verlinkten Repository sind alle Gerber- und Bohrdaten für die automatisierte Platinenfertigung zu finden.
+Im verlinkten [Repository][gh-relais] sind alle Gerber- und Bohrdaten für die automatisierte Platinenfertigung zu finden.
 
 <img src="/assets/imgs/relais-pcb.png" width="600px">
 
