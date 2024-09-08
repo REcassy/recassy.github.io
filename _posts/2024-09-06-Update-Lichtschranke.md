@@ -69,7 +69,7 @@ Programmiert wird der ATtiny mithilfe eines Arduino Uno. Schrittfolge:
 * Aus dem Beispielbereich der Arduino IDE lädt man den ISP-Sketch auf den Uno
 * Anschließend verbindet man den Arduino mit dem ATtiny (Details siehe [Github][gh-lichtschranke])
 * Der ATtiny wird mit "Bootloader brennen" vorbereitet (setzen der E-Fuses)
-* Das Programm wird auf den Arduino ogespielt
+* Das Programm wird auf den Arduino gespielt
 
 
 <img src="/assets/imgs/LS-Programmierung.png" width="600px">
