@@ -39,6 +39,8 @@ Für die Steckverbinder kann man entweder das selbst zuzuschneidene Messingrohr 
 ## Aufbau
 Zuerst werden die drei SMD-Bauteile bestückt. Dabei ist der ESD-Schutz-Chip USBLC6 der schwierigste, weil er nur im SOT23-6-Formfaktor von Reichelt erhältlich ist.
 
+<img src="/assets/imgs/LS-SMD.png" width="300px">
+
 Die beiden Entkopplugskondensatoren C1 (für USBLC6) und C3 (für ATTiny) sind hingegen recht einfach zu verlöten, da sie im 1206 Formfaktor vorgesehen sind.
 
 Der ATTiny wird idealerweise in einen Sockel gesetzt, was das spätere Austauschen und neu programmieren erleichtert. Er kann aber auch direkt verlötet werden und sitzt dann auf C3 auf.
@@ -47,14 +49,28 @@ Der ATTiny wird idealerweise in einen Sockel gesetzt, was das spätere Austausch
 
 Oben sieht man gut den unter dem Sockel eingesetzten Kondensator.
 
-<img src="/assets/imgs/L-Adapter-vorne.PNG" width="300px">
-<img src="/assets/imgs/L-Adapter-2.PNG" width="300px">
+<img src="/assets/imgs/LS-1.png" width="300px">
+<img src="/assets/imgs/LS-2.png" width="300px">
 
 Die weiteren Komponenten werden wie üblich eingesetzt und verlötet. Bei der Variante mit den Messingbuchsen hilft es, diese vorher mit einem kleinen Gasbrenner (z.B. Flambiergerät) vorzuwärmen, dann lassen sie sich leichter verlöten. Das Ausrichten der Messingbuchsen fällt tatsächlich schwer, gegebenfalls kann man sich eine kleine Ausrichthilfe per 3D-Druck erstellen.
+
+<img src="/assets/imgs/L-Adapter-vorne.PNG" width="300px">
+<img src="/assets/imgs/L-Adapter-2.PNG" width="300px">
 
 Beim zuschneiden der Messingrohre (Innendurchmesser 4mm, Wandstärke 0,5mm) hilft ein einfacher Rohrschneider:
 
 <img src="/assets/imgs/rohrschneider.png" width="300px">
+
+## Programmierung
+Programmiert wird der ATtiny mithilfe eines Arduino Uno. Schrittfolge:
+* Zur Arduino IDE fügt man ATTinyCore als Board-Manager hinzu
+* Aus dem Beispielbereich der Arduino IDE lädt man den ISP-Sketch auf den Uno
+* Anschließend verbindet man den Arduino mit dem ATtiny (Details siehe [Github][gh-lichtschranke])
+* Der ATtiny wird mit "Bootloader brennen" vorbereitet (setzen der E-Fuses)
+* Das Programm wird auf den Arduino ogespielt
+
+
+<img src="/assets/imgs/LS-Programmierung.png" width="600px">
 
 ## Funktionsweise
 
