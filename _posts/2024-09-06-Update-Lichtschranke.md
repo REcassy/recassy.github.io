@@ -7,7 +7,7 @@ layout: post
 ## Ziel
 In diesem Post zeige ich die ersten voll aufgebauten Lichtschrankenadapter für das Mobile Cassy.
 
-Alle Daten sind bei [Github][gh-lichtschranke] verfügbar.
+Alle Daten zum Nachbauen sind bei [Github][gh-lichtschranke] verfügbar.
 
 ## Errata
 Zwischen der hier gezeigten Platine und der im github repository verfügbaren bestehen folgende Unterschiede:
