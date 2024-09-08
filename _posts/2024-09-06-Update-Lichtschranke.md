@@ -50,7 +50,7 @@ Der ATTiny wird idealerweise in einen Sockel gesetzt, was das spätere Austausch
 Oben sieht man gut den unter dem Sockel eingesetzten Kondensator.
 
 <img src="/assets/imgs/LS-1.png" width="600px">
-__Oben sieht man die Vertauschung von J5 und J4__
+_Oben sieht man die Vertauschung von J5 und J4_
 <img src="/assets/imgs/LS-2.png" width="600px">
 
 Die weiteren Komponenten werden wie üblich eingesetzt und verlötet. Bei der Variante mit den Messingbuchsen hilft es, diese vorher mit einem kleinen Gasbrenner (z.B. Flambiergerät) vorzuwärmen, dann lassen sie sich leichter verlöten. Das Ausrichten der Messingbuchsen fällt tatsächlich schwer, gegebenfalls kann man sich eine kleine Ausrichthilfe per 3D-Druck erstellen.
