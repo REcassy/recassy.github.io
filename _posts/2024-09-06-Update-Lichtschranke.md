@@ -39,7 +39,7 @@ Für die Steckverbinder kann man entweder das selbst zuzuschneidene Messingrohr 
 ## Aufbau
 Zuerst werden die drei SMD-Bauteile bestückt. Dabei ist der ESD-Schutz-Chip USBLC6 der schwierigste, weil er nur im SOT23-6-Formfaktor von Reichelt erhältlich ist.
 
-<img src="/assets/imgs/LS-SMD.png" width="300px">
+<img src="/assets/imgs/LS-SMD.png" width="600px">
 
 Die beiden Entkopplugskondensatoren C1 (für USBLC6) und C3 (für ATTiny) sind hingegen recht einfach zu verlöten, da sie im 1206 Formfaktor vorgesehen sind.
 
@@ -49,8 +49,8 @@ Der ATTiny wird idealerweise in einen Sockel gesetzt, was das spätere Austausch
 
 Oben sieht man gut den unter dem Sockel eingesetzten Kondensator.
 
-<img src="/assets/imgs/LS-1.png" width="300px">
-<img src="/assets/imgs/LS-2.png" width="300px">
+<img src="/assets/imgs/LS-1.png" width="600px">
+<img src="/assets/imgs/LS-2.png" width="600px">
 
 Die weiteren Komponenten werden wie üblich eingesetzt und verlötet. Bei der Variante mit den Messingbuchsen hilft es, diese vorher mit einem kleinen Gasbrenner (z.B. Flambiergerät) vorzuwärmen, dann lassen sie sich leichter verlöten. Das Ausrichten der Messingbuchsen fällt tatsächlich schwer, gegebenfalls kann man sich eine kleine Ausrichthilfe per 3D-Druck erstellen.
 
