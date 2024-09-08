@@ -4,6 +4,8 @@ date: 2024-08-24
 layout: post
 ---
 
+Bitte Errata unten beachten!
+
 ## Hard- und Software
 In diesem Beitrag kommt folgendes zum Einsatz
 * Mobile Cassy WLAN von LD Didactic
@@ -50,6 +52,11 @@ Die Ausgänge sind wie folgt beschaltet: im Ruhezustand sind schwarz-blau geschl
 
 ## Code
 Das [ATTiny-Programm][gh-relais] ist denkbar kurz und realisiert nur, dass auf die entsprechende Abfrage mit der Katalognummer geantwortet wird.
+
+## Errata
+08.09.2024: Mittlerweile sind die Platinen da und aufgabaut. Es zeigt sich, dass der Kondensator C3 überflüssig ist. Tatsächlich führt er in einigen Situation sogar dazu, dass das Cassy das Relais nicht mehr zuverlässig halten kann. Die entsprechende Stelle auf der Platine kann einfach gegen eine Drahtbrücke ersetzt werden:
+
+<img src="/assets/imgs/Relaiskarte-oben" width="300px"> <img src="/assets/imgs/Relaiskarte-unten" width="300px">
 
 [gh-relais]: https://github.com/REcassy/Relais-M
 [post-relhard]: https://recassy.github.io/2024/08/16/Relais-Hardware.html
