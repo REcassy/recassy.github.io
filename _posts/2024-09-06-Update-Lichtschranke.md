@@ -22,6 +22,7 @@ Hier sieht man beide Platinen-Varianten wie sie von JLCPCB geliefert wurden.
 
 ## Bauteile
 Die benötigten Bauteilen sind hier aufgelistet (Reichelt-Bestellnummern dienen nur als Beispiel):
+
 | Bezeichnung  | Bauteil | Formfaktor | Reicheltnummer |
 | ------------- | ------------- | ------------- | ------------- |
 | U1  |  ATiny25 | DIP-8 | ATTINY 25-20 PU |
