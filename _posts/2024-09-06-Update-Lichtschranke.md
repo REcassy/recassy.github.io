@@ -28,6 +28,9 @@ Die beiden Entkopplugskondensatoren C1 (für USBLC6) und C3 (für ATTiny) sind h
 Der ATTiny wird idealerweise in einen Sockel gesetzt, was das spätere Austauschen und neu programmieren erleichtert. Er kann aber auch direkt verlötet werden und sitzt dann auf C3 auf.
 
 <img src="/assets/imgs/L-Adapter-oben.PNG" width="600px">
+
+Oben sieht man gut den unter dem Sockel eingesetzten Kondensator.
+
 <img src="/assets/imgs/L-Adapter-vorne.PNG" width="600px">
 <img src="/assets/imgs/L-Adapter-2.PNG" width="600px">
 
