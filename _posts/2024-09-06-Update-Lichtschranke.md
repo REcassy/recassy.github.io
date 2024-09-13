@@ -94,4 +94,4 @@ Man beachte den Anschluss des Fototransistors (gelb) zwischen J2 und GND!
 ## Gehäuse
 Im Moment sind die Platinen zur "nackten" Benutzung vorgesehen, ein 3D-gedrucktes Gehäuse ist in Planung.
 
-[gh-lichtschranke]: https://github.com/REcassy/Lichtschranke-M
+[gh-lichtschranke]: https://github.com/REcassy/Lichtschrankenadapter-M
