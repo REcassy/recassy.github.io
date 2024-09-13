@@ -43,5 +43,5 @@ Ein einfaches [Arduino-Programm][gh-lichtschranke] ist also in der Lage, auf die
 * Beim Experimentieren mit dem I<sup>2</sup>C Bus hat das Mobile Cassy Werte auch ohne Beschaltung der Pins 2 und 6 Werte an. Auch Versuche mit anderen Sensoren legen nahe, dass Messwerte auch rein über den I<sup>2</sup>C Bus übertragen werden können. Das Cassy Mobile versucht unter anderem auch Adresse 14h auf dem Bus zu erreichen - ggf. gibt es reservierte Adressen für diese Messdaten und die allgmeine Adresse 50h für die "Verwaltung".
 * Die übrige Kommunikation, insbesondere Konfiguration von Messbereichen ist noch unklar.
 
-[gh-lichtschranke]: https://github.com/REcassy/Lichtschranke-M
+[gh-lichtschranke]: https://github.com/REcassy/Lichtschrankenadapter-M
 [ur-lichtschranke]: http://www.uranmaschine.de/524431.Lichtschranke_M/index.php
